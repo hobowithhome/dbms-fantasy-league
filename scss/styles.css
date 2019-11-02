@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Proxima Nova Lt;
+  src: url(../fonts/ProximaNova-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.html {
+  height: 100%;
+}
+
+.landing {
+  background-image: url("../pictures/bg.png");
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .landing {
+    height: 100%;
+  }
+}
+
+.landing:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.52;
+  z-index: -1;
+}
+
+.landing .landhead {
+  font-family: Poppins;
+  color: #fff;
+  padding-top: 25%;
+  font-size: 5.5rem;
+}
+
+.landing .buttons {
+  padding-top: 5%;
+}
+
+.landing .buttons .btn-login {
+  font-family: Proxima Nova Lt;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 16px 61px;
+  border-color: #fff;
+}
+
+.landing .buttons .btn-login:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  background-color: #fff;
+  color: #000;
+}
+
+.landing .buttons .btn-login:visited {
+  color: #000;
+}
+
+.landing .buttons .btn-signup {
+  font-family: Proxima Nova Lt;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 16px 61px;
+  border-color: #fff;
+}
+
+.landing .buttons .btn-signup:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  background-color: #fff;
+  color: #000;
+}
+
+.landing .buttons .btn-signup:visited {
+  color: #000;
+}
+/*# sourceMappingURL=styles.css.map */
