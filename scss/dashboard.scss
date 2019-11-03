@@ -1,0 +1,75 @@
+.landing{
+    background-image: url('../pictures/bg.png');
+    background-size: cover;
+    position: relative;
+    z-index:10;
+    height:100vh;
+    background-attachment: scroll;
+    background-position:center;
+    width:100%;
+
+
+    @media (max-width: 991px){
+        height:100%;
+        }
+
+        &:after{
+            content:"";
+            display:block;
+            width:100%;
+            height:100%;
+            background-color:#000;
+            position:absolute;
+            top:0;
+            left:0;
+            opacity:0.52;
+            z-index:-1;
+        }
+
+        .card-deck{
+            position: absolute;
+            margin-top:5%;
+            margin-right:20%;
+
+            .hi{
+                margin-left:12%
+            }
+            
+        }
+        .deckstyle{
+            margin-top:35%;
+        }
+        
+        .button-placement {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        
+        .carousel-item{
+            .product-block{
+                border: 1px solid #222;
+                padding: 0px;
+                text-align: center;
+        
+                h4{
+                    text-align: center;
+                }
+        
+                a{
+                    margin: 0 0 20px;
+                }
+            }
+        }
+        
+        @media screen and (min-width: 320px) and (max-width: 767px){
+            .carousel-item .product-block{
+                margin: 0 15px;
+            }
+            .carousel-title{
+                font-size: 18px;
+                margin-top: 20px;
+            }
+        }
+    }
