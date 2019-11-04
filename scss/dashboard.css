@@ -28,6 +28,11 @@
   z-index: -1;
 }
 
+.landing .button-placement {
+  position: absolute;
+  top: 345px;
+}
+
 .landing .card-deck {
   position: absolute;
   margin-top: 5%;
@@ -71,5 +76,9 @@
     font-size: 18px;
     margin-top: 20px;
   }
+}
+
+.landing .carouselstyle {
+  margin-top: 30%;
 }
 /*# sourceMappingURL=dashboard.css.map */

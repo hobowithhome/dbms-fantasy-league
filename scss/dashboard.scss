@@ -26,6 +26,11 @@
             z-index:-1;
         }
 
+        .button-placement{
+            position: absolute;
+            top: 345px;
+        }
+
         .card-deck{
             position: absolute;
             margin-top:5%;
@@ -71,5 +76,9 @@
                 font-size: 18px;
                 margin-top: 20px;
             }
+        }
+
+        .carouselstyle{
+            margin-top:30%;
         }
     }
